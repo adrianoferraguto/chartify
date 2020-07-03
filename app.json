@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Chartify",
+    "slug": "SpotifyCharts",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0e0f19"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.adrianoferraguto.chartify",
+      "versionCode": 3,
+      "permissions": [],
+      "adaptiveIcon": {
+        "backgroundColor": "#0e0f19",
+        "foregroundImage": "./assets/chartify_icon_padded.png"
+      }
+    }
+  }
+}
